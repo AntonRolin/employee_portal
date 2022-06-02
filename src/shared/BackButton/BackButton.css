@@ -1,0 +1,21 @@
+.BackButton {
+    width: 10%;
+    height: 30%;  
+    margin-top: 10px;
+    align-items: left;
+}
+
+.BackButton .button {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(202, 224, 228);
+    color: rgb(44, 63, 92);
+    transition: background-color 200ms ease-in;
+    border-radius: 25%;
+}
+
+.BackButton .button:hover {
+    background-color: rgb(141, 216, 231);
+    transition: background-color 200ms ease-in;
+    cursor: pointer;
+}

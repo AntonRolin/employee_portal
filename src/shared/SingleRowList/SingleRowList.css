@@ -1,0 +1,36 @@
+.SingleRowList {
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.SingleRowList .title {
+    width: 100%;
+    text-align: center;
+    color: rgb(44, 63, 92);
+    background-color: rgb(193, 234, 214);
+}
+
+.SingleRowList .content {
+    width: 100%;
+    height: 2.3em;
+    display: flex;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.SingleRowList .text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    transition: background-color 200ms ease-in;
+}
+
+.SingleRowList .text:hover {
+    cursor: pointer;
+    background-color: lightcyan;
+    transition: background-color 200ms ease-in;
+}
